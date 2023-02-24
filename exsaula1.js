@@ -18,3 +18,15 @@ let novosal;
 novosal = salario + (salario*0.25);
 console.log("Novo salario: ", novosal);
 */
+/* 4 - idade 
+const anonasc = 2004;
+let date = new Date();
+let anotual = date.getFullYear();
+
+let idade = anotual - anonasc;
+let idademeses = idade * 12;
+let idadesem = idade * 52;
+let idadedias = idade * 365;
+
+console.log("Idade em anos: ", idade, "\nIdade em meses: ", idademeses, "\nIdade em semanas: ", idadesem, "\nIdade em dias: ", idadedias);
+*/
