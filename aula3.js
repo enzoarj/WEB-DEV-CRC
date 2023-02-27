@@ -61,12 +61,11 @@ let letterboxd = {
     console.log(`Nome do filme: ${letterboxd.filme} \nNota: ${letterboxd.nota} \nGênero: ${letterboxd.genero}`);
     */
 
-/*Ex 4 - array com slice
+//Ex 4 - array com slice
 let words = ["Garfo", "Viola", "Pib"];
 let a = words.slice()[0][4];
 let b = words.slice()[1][4];
 let c = words.slice()[2][2];
 console.log(`Array: ${words}`);
 console.log(`${a} \n${b} \n${c}`);
-*/
 
