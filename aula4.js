@@ -67,8 +67,21 @@ for(let[musica, nota] of Object.entries(musicas))
 */
 //EX 4
 
-let obj =
+let lista =
 {
-    nomes: ['Julia', 'Vitoria', 'Santos'];
+    nomes: ['Julia', 'Vitoria', 'Joao']
 };
+
+let nomes = Object.values(lista.nomes);
+let maiorNome = 0;
+
+for(let i in nomes)
+{ 
+    if(nomes[i].length > maiorNome) 
+    {
+        maiorNome = nomes[i];
+
+    }
+}
+console.log(`Maior nome: ${maiorNome}`);
 
