@@ -51,9 +51,10 @@ function PalavrasComLetra(strings, letra){
     }
 }
     console.log(PalavrasComLetra("banana banana", "a"));
+    */
     
-    
-    ex3 soma e mult com callback
+
+    //ex3 soma e mult com callback
 
     exibir = (arg) => {
         console.log(`O resutado da op é ${arg}`);
@@ -68,4 +69,4 @@ function PalavrasComLetra(strings, letra){
     }
     soma(4, 4, exibir);
     mult(4, 4, exibir);
-    */
+    
